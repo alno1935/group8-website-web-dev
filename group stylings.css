@@ -3,32 +3,61 @@
     padding:0;
 }
 body{
-    height: 2600px;
     background-color: rgb(92, 216, 253);
 }
 .div-one{
     height: 60px;
-    font-family:impact,charcoal,sans-serif;font-size: 50px;
+    font-family:impact,charcoal,sans-serif;
+    font-size: 50px;
     color:rgb(232,157,12);
-    position: fixed; left: 0px; top: 0px;
+    position: relative; 
+    left: 0px; 
+    top: 0px;
     z-index:1;
 }
 .div-two{
-    width:100%;height:100px;position:fixed;left:0px;top:0px;
+    width:100%;
+    height:100px;
+    position: relative;
+    left:0px; 
+    bottom:60px;
     background-color:rgb(109,12,232);
-    color:rgb(0, 109, 128); text-align: right;
+    color:rgb(0, 109, 128); 
+    text-align: right;
 }
 a{
     font-size:20px;
     color:rgb(232,157,12);
     text-decoration: none;
 }
+.winterimage{
+    background-image: url("happyPeople.jpg");
+    width: 100%;
+    height: 700px;
+    position: relative;
+    background-size: cover;
+    bottom: 55px;
 
-.introduction{
-    background-color: rgb(162,255,13);
-    height: 80px; width: 80px;
-    position:relative;
-    top: 300px;
-    z-index:1;
 }
 
+.introduction{
+    width: 40%;
+    font-size: 2.0em;
+    position:relative;
+    left: 30%;
+    bottom: 700px;
+    z-index:1;
+    border-radius: 10%;
+    text-align: center;
+    border: rgb(92, 11, 232) ;
+    border-style: groove;
+    font-family: 'Courier New', Courier, monospace;
+}
+.link-to-products{
+    width: 100%;
+    height: 300px;
+}
+.black-tuque{
+    width: 25%;
+    height: 400px;
+}
