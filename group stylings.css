@@ -5,59 +5,49 @@
 body{
     background-color: rgb(92, 216, 253);
 }
-.div-one{
+.nav h2 {
     height: 60px;
     font-family:impact,charcoal,sans-serif;
     font-size: 50px;
     color:rgb(232,157,12);
-    position: relative; 
-    left: 0px; 
-    top: 0px;
-    z-index:1;
+    float: left;
+    margin-top: 18px;
+    margin-left: 15px;
 }
-.div-two{
-    width:100%;
-    height:100px;
-    position: relative;
-    left:0px; 
-    bottom:60px;
-    background-color:rgb(109,12,232);
-    color:rgb(0, 109, 128); 
-    text-align: right;
-}
-a{
+.nav a {
+    float: right;
+    margin: 15px 10px;
     font-size:20px;
     color:rgb(232,157,12);
     text-decoration: none;
 }
+.nav{
+    width:100%;
+    height:100px;
+    background-color:rgb(109,12,232);
+    color:rgb(0, 109, 128); 
+}
+
 .winterimage{
     background-image: url("happyPeople.jpg");
     width: 100%;
     height: 700px;
-    position: relative;
     background-size: cover;
-    bottom: 55px;
-
+    margin-top:10px;
 }
 
 .introduction{
     width: 40%;
+    margin: 0 auto;
     font-size: 2.0em;
-    position:relative;
-    left: 30%;
-    bottom: 700px;
-    z-index:1;
     border-radius: 10%;
     text-align: center;
     border: rgb(92, 11, 232) ;
     border-style: groove;
     font-family: 'Courier New', Courier, monospace;
 }
-.link-to-products{
-    width: 100%;
-    height: 300px;
-}
-.black-tuque{
-    width: 25%;
-    height: 400px;
+
+.blue-tuque, .black-tuque{
+    height:400px;
+    float: right;
 }
