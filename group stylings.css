@@ -49,13 +49,31 @@ body{
 }
 
 .tuque-pic{
-    width: 30%;
+    width: 25%;
     height:300px;
     margin-right: 50px;
     border: 5px solid rgb(232,157,12);
     background-color: rgb(92, 216, 253);
     /*display: inline-block;*/
     float: right;
+}
+.sec-tuque-pic{
+    position:relative;
+    top: 30px;
+    width: 15%;
+    height:300px;
+    margin-right: 50px;
+    border: 5px solid rgb(232,157,12);
+    background-color: rgb(92, 216, 253);
+    display: inline-block;
+    /*float: right;*/
+}
+.sec-tuque-pic img{
+    object-fit: contain;
+    max-height: 85%;
+    max-width: 85%;
+    display: block; 
+    margin: 0 auto;
 }
 .tuque-pic img{
     object-fit: contain;
@@ -65,13 +83,21 @@ body{
     margin: 0 auto;
 
 }
+.sec-tuque-pic p{
+    height: 50px;
+    color: rgb(232,157,12);;
+    background-color: rgb(92, 216, 253);
+    border:1px solid rgb(232,157,12);
+    text-align: center;
+    font-size: 2.5em;
+}    
 .tuque-pic p{
     height: 50px;
     color: rgb(232,157,12);;
     background-color: rgb(92, 216, 253);
     border:1px solid rgb(232,157,12);
     text-align: center;
-    font-size: 2.5em
+    font-size: 2.5em;
 }
 .text {
     height: 300px;
@@ -81,6 +107,9 @@ body{
     color: rgb(63,18,232)
 
 }
+
+
+
 
 /* umars section*/ /*warning code is not gonna look pretty*/
 .div-first{
