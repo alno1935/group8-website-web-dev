@@ -107,7 +107,12 @@ body{
     color: rgb(63,18,232)
 
 }
+.store-form{
 
+    width: 30%;
+    height: 300px;
+    float: right;
+}
 
 
 
