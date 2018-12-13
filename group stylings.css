@@ -41,10 +41,8 @@ body{
     width: 40%;
     margin: 0 auto;
     font-size: 2.0em;
-    border-radius: 10%;
     text-align: center;
-    border: rgb(92, 11, 232);
-    border-style: groove;
+    font-weight:bold;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -143,10 +141,9 @@ body{
     left: 30%;
     bottom: 700px;
     z-index:1;
-    border-radius: 10%;
+    
     text-align: center;
-    border: rgb(92, 11, 232) ;
-    border-style: groove;
+   
     font-family: 'Courier New', Courier, monospace;
     
 }
@@ -170,8 +167,6 @@ float: right;
     left: 100px;
     bottom: 290px;
     font-size: 1.20em;
-    border-radius: 2%;
-    border-style: solid;
     text-align: left;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -211,7 +206,9 @@ float: right;
     font-size: 1.10em;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif 
 }
-
+.video1{
+    width: 100%;
+}
 .title4{
    text-align: center; 
   background-color: rgb(92, 11, 232);  
